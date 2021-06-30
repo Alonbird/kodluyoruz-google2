@@ -1,0 +1,162 @@
+body{
+    margin: 5px 10px 5px 6px;
+    padding:0%;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.container {
+    margin:0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.top-image {
+    float: right;
+    margin-right: 10px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+.top-lane {
+    border: none;
+    width: 100%;
+    height: 47px;
+    margin: auto;
+}
+
+.mid-lane {
+    text-align: center;
+    border:none;
+    height: 86px;
+    margin: 4px -10px -5px -6px ;
+}
+
+.search {
+    border: none;
+    margin: 4px -10px -5px -6px;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-area{
+    border: rgb(216, 213, 213) solid 0.1px ;
+    width: 540px;
+    height: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    padding: 1.4%;
+    border-radius: 100px;
+    
+}
+
+.input-area {
+    background-color: transparent;
+    border:none;
+    margin: -20px;
+    width: 450px;
+    padding: 10px;
+    text-align: left;
+    height: 25px !important;
+    border-radius: 30px;
+    position: relative;
+    bottom: 17px;
+    left: 30px;
+    flex: 100%;
+    font-size: 16px;
+}
+.search-area:hover {
+    box-shadow: 0px 0px 3px 2px rgb(221, 218, 218);
+}
+
+
+input:focus {
+    outline: 0;
+}
+
+
+.buttons {
+    margin-top: 50px;
+    border: none ;
+    width: 406px;
+    margin: auto;
+    height: 100px;
+    
+}
+
+.submits {
+    float: left;
+    background-color: #f8f9fa;
+    border: none ;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 2px;   
+    
+}
+
+.submits-hover:hover {
+    border:gray
+}
+
+footer {
+    margin: -10px;
+    background-color: rgb(247, 240, 240);
+    color: rgba(0,0,0,.54);
+    border: none;
+    height: 141px;
+    text-align: center;
+}
+
+a {
+    color: rgba(0,0,0,.54);
+    text-decoration:none ;
+}
+
+
+
+.left-nav{
+    float: left;
+   
+}
+.left-nav li {
+    display: inline;
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+    margin: 10px;
+    
+}
+
+.right-nav{
+    float: right;
+    list-style-type: none;
+    display: block;
+}
+.right-nav li {
+    display: inline;
+    margin: 10px;
+    padding: 5px ;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+
+#turkey {
+    font-size: 15px;
+    margin: 20px;
+    text-align: start;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+a:hover{
+    text-decoration:underline ;
+}
